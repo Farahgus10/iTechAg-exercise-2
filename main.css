@@ -1,0 +1,41 @@
+* { box-sizing: border-box; }
+
+html, body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+h2 {
+    text-align: center;
+    color: purple
+}
+
+p {
+    color: blue;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    padding: 0;
+}
+
+label, input {
+    margin-top: 20px;
+}
+label {
+    color: blue;
+}
+
+.btn {
+    border-color: blue;
+}
