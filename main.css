@@ -27,6 +27,12 @@ fieldset {
     flex-direction: column;
     border: none;
     padding: 0;
+    
+}
+
+section{
+    width: 40%;
+    margin: auto;
 }
 
 label, input {

@@ -12,6 +12,12 @@ function handleSubmitButton() {
     document.getElementById("string-form").reset()
 }
 
+function clearArray() {
+    dataArray.splice(0, dataArray.length)
+}
+
 function displayString() {
     document.getElementById("array-data").append(dataArray)
+
+    clearArray();
 }
